@@ -2,7 +2,7 @@ SimpleCrudApi
 
 First Add departments
 
-POST - http://localhost:8082/SimpleCrudApi/addDepartment
+POST - http://localhost:{portNo}/SimpleCrudApi/addDepartment
 
 Sample payload
 
@@ -15,18 +15,18 @@ Sample payload
 
 Employee CRUD
 
-GET - http://localhost:8082/SimpleCrudApi/employee/{employeeId}
-POST - http://localhost:8082/SimpleCrudApi/employee/
-PUT - http://localhost:8082/SimpleCrudApi/employee/
-DELETE - http://localhost:8082/SimpleCrudApi/employee/{employeeId}
+GET - http://localhost:{portNo}/SimpleCrudApi/employee/{employeeId}
+POST - http://localhost:{portNo}/SimpleCrudApi/employee/
+PUT - http://localhost:{portNo}/SimpleCrudApi/employee/
+DELETE - http://localhost:{portNo}/SimpleCrudApi/employee/{employeeId}
 
 Sample payload
 
 {
-"employeeId":"",
-"firstName":"",
-"lastName":"",
-"departmentId":""
+"employeeId":1,
+"firstName":"Jone",
+"lastName":"Jones",
+"departmentId":1
 }
 
 
